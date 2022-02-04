@@ -1,0 +1,190 @@
+* {
+  font-family: "Source Sans Pro", "Calibre", "Inter", "San Francisco",
+    "SF Pro Text", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --greyblack: #26292b;
+  --aqua: #08d9d6;
+  --greywhite: #909096;
+}
+
+.logo {
+  color: var(--aqua);
+  font-size: 50px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  padding-left: 3%;
+  padding-bottom: 1%;
+}
+
+.intro-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  border-bottom: 2px solid #404040;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-size: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.navbar a:hover {
+  color: var(--aqua);
+  transform: scale(1.1);
+}
+
+body {
+  background-color: #26292b;
+  color: azure;
+}
+
+span {
+  color: var(--aqua);
+}
+
+#avatar {
+  border-radius: 22%;
+  border: 3px solid var(--aqua);
+  height: 310px;
+  width: 255px;
+}
+
+.Hi {
+  font-size: 120px;
+}
+
+.Ash {
+  font-size: 80px;
+}
+
+.mypassion {
+  font-size: 40px;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+/* INSERT HERE FLEXBOX IMAGES */
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 25%;
+}
+
+.project-card {
+  padding: 2%;
+  display: flex;
+  flex: 1 20%;
+  justify-content: space-around;
+}
+
+.project-image img {
+  max-width: 100%;
+}
+
+.title {
+  margin-top: auto;
+}
+
+.projects .project-card:first-child {
+  flex: 1 80%;
+}
+
+@media (max-width: 600px) {
+  .project-card {
+    flex: 1 46%;
+  }
+}
+
+.caption {
+  text-align: center;
+}
+
+.project-1-title {
+  text-align: center;
+}
+
+#contact-me {
+  text-align: center;
+  color: var(--aqua);
+  font-size: 50px;
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+input,
+textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 8px;
+  color: white;
+  background-color: var(--greyblack);
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  resize: none;
+  box-shadow: rgba(73, 72, 72, 0.219);
+  border-bottom: 2px solid var(--aqua);
+}
+
+#input-submit {
+  color: var(--aqua);
+  cursor: pointer;
+  width: 50%;
+  border: solid 0.5px var(--aqua);
+}
+
+#input-submit:hover {
+  background-color: var(--aqua);
+  color: var(--greyblack);
+}
+
+textarea {
+  height: 126px;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials li img {
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.title {
+  position: absolute;
+  border-radius: 10%;
+}
