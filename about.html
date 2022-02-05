@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ash Weston | About Me</title>
+
+    <!-- mobile responsive meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- bulma -->
+    <link rel="stylesheet" href="plugins/bulma/bulma.min.css" />
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css" />
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!--Favicon-->
+    <!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" /> -->
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar is-dark is-fixed-top"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <div class="logo">△ aw</div>
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navigation"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navigation" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="index.html" class="navbar-item">home</a>
+            <a href="about.html" class="navbar-item">about</a>
+            <a href="portfolio.html" class="navbar-item">portfolio</a>
+            <a href="contact.html" class="navbar-item">contact</a>
+            <a
+              class="navbar-item"
+              href="resume.pdf"
+              download="resume.pdf"
+              id="resume"
+              target="_blank"
+            >
+              Resume</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- page title -->
+    <section class="page-title-alt has-background-primary is-relative">
+      <div class="container">
+        <h1 class="has-text-white font-tertiary">about me</h1>
+      </div>
+    </section>
+    <!-- /page title -->
+
+    <!-- about -->
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-8-tablet">
+            <p>My name is <span class="bold">Ash.</span></p>
+            <br />
+            <p>
+              I currently work for an insurance builder, but my real passion is
+              IT/Web Design.
+            </p>
+            <br />
+            <p>
+              I'm currently completing the coding bootcamp through the
+              University of Adelaide, in order to build my skills and learn new
+              things.
+            </p>
+            <br />
+            <p>I'd like to invite you along on my journey.</p>
+          </div>
+          <div class="col-md-4 has-text-centered drag-lg-top">
+            <div class="shadow-down mb-20">
+              <img
+                src="images/about/Avatar2.jpg"
+                alt="author"
+                class="image full-width rounded-lg border-thick is-border-white"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /about -->
+
+    <!-- Work Process -->
+    <section class="section">
+      <div class="container">
+        <div class="has-text-centered">
+          <h2 class="section-title">my process</h2>
+        </div>
+        <div class="columns">
+          <div
+            class="column is-4-desktop has-text-centered hover-shadow has-padding-top-15"
+          >
+            <img src="images/icons/plan.png" class="mb-20" alt="icon" />
+            <h4 class="mb-20">research and plan</h4>
+          </div>
+          <div
+            class="column is-4-desktop has-text-centered hover-shadow has-padding-top-15"
+          >
+            <img src="images/icons/design.png" class="mb-20" alt="icon" />
+            <h4 class="mb-20">design and develop</h4>
+          </div>
+          <div
+            class="column is-4-desktop has-text-centered hover-shadow has-padding-top-15"
+          >
+            <img src="images/icons/print.png" class="mb-20" alt="icon" />
+            <h4 class="mb-20">deliver</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ./Work Process -->
+
+    <!-- portfolio -->
+
+    <section
+      class="section has-background-cover"
+      data-background="images/backgrounds/wall4.jpg"
+    >
+      <div class="container">
+        <!-- filter menu -->
+
+        <div class="buttons has-addons is-centered filter-menu">
+          <label class="button is-primary is-active">
+            <input
+              type="radio"
+              name="shuffle-filter"
+              value="all"
+              checked="checked"
+            />All
+          </label>
+
+          <label class="button is-primary">
+            <input type="radio" name="shuffle-filter" value="design" />UI/UX
+            Design
+          </label>
+
+          <label class="button is-primary">
+            <input
+              type="radio"
+              name="shuffle-filter"
+              value="branding"
+            />BRANDING
+          </label>
+
+          <label class="button is-primary">
+            <input
+              type="radio"
+              name="shuffle-filter"
+              value="illustration"
+            />ILLUSTRATION
+          </label>
+        </div>
+
+        <!-- /filter menu -->
+
+        <div class="columns shuffle-wrapper">
+          <div
+            class="column is-4-desktop is-6-tablet mb-20 shuffle-item"
+            data-groups='["design","illustration"]'
+          >
+            <div class="is-relative hover-wrapper">
+              <img
+                src="images/portfolio/code-quiz.jpg"
+                alt="portfolio-image"
+                class="image is-full is-block"
+              />
+
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a
+                    class="button is-light is-small"
+                    href="https://ashweston.github.io/code-quiz/index.html"
+                    >code quiz</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="column is-4-desktop is-6-tablet mb-20 shuffle-item"
+            data-groups='["branding"]'
+          >
+            <div class="is-relative hover-wrapper">
+              <img
+                src="images/portfolio/workday-planner.jpg"
+                alt="portfolio-image"
+                class="image is-full is-block"
+              />
+
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a
+                    class="button is-light is-small"
+                    href="https://ashweston.github.io/Work-Day-Scheduler/"
+                    >work day scheduler</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="column is-4-desktop is-6-tablet mb-20 shuffle-item"
+            data-groups='["illustration"]'
+          >
+            <div class="is-relative hover-wrapper">
+              <img
+                src="images/portfolio/weather-app.jpg"
+                alt="portfolio-image"
+                class="image is-full is-block"
+              />
+
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a
+                    class="button is-light is-small"
+                    href="https://ashweston.github.io/weather-dashboard/"
+                    >weather app</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="column is-4-desktop is-6-tablet mb-20 shuffle-item"
+            data-groups='["design","branding"]'
+          >
+            <div class="is-relative hover-wrapper">
+              <img
+                src="images/portfolio/portfolio-3.jpg"
+                alt="portfolio-image"
+                class="image is-full is-block"
+              />
+
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a
+                    class="button is-light is-small"
+                    href="https://lconnell1000.github.io/Project-1/"
+                    >group project - cocktail orders</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="column is-4-desktop is-6-tablet mb-20 shuffle-item"
+            data-groups='["illustration"]'
+          >
+            <div class="is-relative hover-wrapper">
+              <img
+                src="images/portfolio/portfolio-4.jpg"
+                alt="portfolio-image"
+                class="image is-full is-block"
+              />
+
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a
+                    class="button is-light is-small"
+                    href="https://ashweston.github.io/password-generator/ "
+                    >password-generator</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="column is-4-desktop is-6-tablet mb-20 shuffle-item"
+            data-groups='["design"]'
+          >
+            <div class="is-relative hover-wrapper">
+              <img
+                src="images/portfolio/portfolio-6.jpg"
+                alt="portfolio-image"
+                class="image is-full is-block"
+              />
+
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a
+                    class="button is-light is-small"
+                    href="https://github.com/AshWeston"
+                    >work in progress</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="column is-4-desktop is-6-tablet mb-20 shuffle-item"
+            data-groups='["branding"]'
+          >
+            <div class="is-relative hover-wrapper">
+              <img
+                src="images/portfolio/item-1.png"
+                alt="portfolio-image"
+                class="image is-full is-block"
+              />
+
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a
+                    class="button is-light is-small"
+                    href="https://github.com/AshWeston"
+                    >work in progress</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="column is-4-desktop is-6-tablet mb-20 shuffle-item"
+            data-groups='["design","illustration","branding"]'
+          >
+            <div class="is-relative hover-wrapper">
+              <img
+                src="images/portfolio/item-3.png"
+                alt="portfolio-image"
+                class="image is-full is-block"
+              />
+
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a
+                    class="button is-light is-small"
+                    href="https://github.com/AshWeston"
+                    >work in progress</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="column is-4-desktop is-6-tablet mb-20 shuffle-item illustration"
+            data-groups='["illustration"]'
+          >
+            <div class="is-relative hover-wrapper">
+              <img
+                src="images/portfolio/item-7.png"
+                alt="portfolio-image"
+                class="image is-full is-block"
+              />
+
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a
+                    class="button is-light is-small"
+                    href="https://github.com/AshWeston"
+                    >work in progress</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /portfolio -->
+
+    <!-- contact -->
+    <section
+      class="section section-on-footer"
+      data-background="images/backgrounds/bg-dots.png"
+    >
+      <div class="container">
+        <div class="has-text-centered">
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-8-desktop">
+            <div
+              class="has-background-white card-content has-text-centered shadow-down"
+            >
+              <p class="mb-80">
+                I'm always seeking out opportunities to collaborate with
+                companies/agencies/individuals. <br />Feel free to reach out!
+              </p>
+              <form action="#" class="columns is-multiline is-centered">
+                <div class="column is-6-tablet">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Full Name"
+                    class="input"
+                  />
+                </div>
+                <div class="column is-6-tablet">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email Address"
+                    class="input"
+                  />
+                </div>
+                <div class="column is-full">
+                  <textarea
+                    name="message"
+                    id="message"
+                    class="input"
+                    placeholder="Type Message Here"
+                  ></textarea>
+                </div>
+                <div class="column is-6-tablet is-10">
+                  <button class="button is-primary is-fullwidth">send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /contact -->
+
+    <!-- footer -->
+    <footer class="has-background-dark footer-section">
+      <div class="section">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-4-tablet">
+              <h5 class="has-text-light">email</h5>
+              <p class="has-text-white paragraph-lg font-secondary">
+                ash-w@live.com.au
+              </p>
+            </div>
+            <div class="column is-4-tablet">
+              <h5 class="has-text-light">phone</h5>
+              <p class="has-text-white paragraph-lg font-secondary">
+                0424 120 776
+              </p>
+            </div>
+            <div class="column is-4-tablet">
+              <h5 class="has-text-light">location</h5>
+              <p class="has-text-white paragraph-lg font-secondary">
+                Brisbane, QLD Australia
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="section is-small has-text-centered has-border-top is-border-dark"
+      >
+        <p class="has-text-light">
+          Copyright ©
+          <script>
+            var CurrentYear = new Date().getFullYear();
+            document.write(CurrentYear);
+          </script>
+          Ash Weston
+        </p>
+      </div>
+    </footer>
+    <!-- /footer -->
+
+    <!-- jQuery -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- slick slider -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- filter -->
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

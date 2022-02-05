@@ -96,14 +96,14 @@ pre {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 25%;
-}
+} 
 
-.project-card {
+project-card {
   padding: 2%;
   display: flex;
   flex: 1 20%;
   justify-content: space-around;
-}
+} 
 
 .project-image img {
   max-width: 100%;
