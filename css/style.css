@@ -156,20 +156,6 @@ body {
   color: #fff;
 }
 
-/* preloader */
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  z-index: 999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 ol,
 ul {
   list-style-type: none;
@@ -207,10 +193,6 @@ a:hover {
   color: #41228e;
 }
 
-.slick-slide {
-  outline: 0;
-}
-
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -228,29 +210,6 @@ a:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-}
-
-/* overlay */
-.overlay {
-  position: relative;
-}
-.overlay::before {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background: #000;
-  opacity: 0.5;
-}
-
-.outline-0 {
-  outline: 0 !important;
-}
-
-.d-unset {
-  display: unset !important;
 }
 
 .has-background-primary {
@@ -349,50 +308,6 @@ a:hover {
   background-color: #222222 !important;
 }
 
-/* icon */
-.icon {
-  font-size: 45px;
-  height: unset;
-  width: unset;
-}
-
-.icon-bg {
-  height: 100px;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-}
-
-.icon-light {
-  color: #c8d5ef;
-}
-
-/* /icon */
-/* slick slider */
-.slick-dots {
-  text-align: center;
-  padding-left: 0;
-}
-.slick-dots li {
-  display: inline-block;
-  margin: 2px;
-}
-.slick-dots li.slick-active button {
-  background: #fff;
-  width: 25px;
-}
-.slick-dots li button {
-  height: 6px;
-  width: 12px;
-  background: rgba(255, 255, 255, 0.5);
-  color: transparent;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: 0.2s ease;
-  border: 0;
-}
-
-/* /slick slider */
 /* form */
 .input {
   border: 0;
@@ -412,18 +327,7 @@ textarea.input {
 }
 
 /* /form */
-/* card */
-.card {
-  border: 0;
-}
-.card-header {
-  border: 0;
-}
-.card-footer {
-  border: 0;
-}
 
-/* /card */
 .list-hero-social {
   position: relative;
   z-index: 1;
@@ -520,51 +424,6 @@ textarea.input {
 .layer {
   position: absolute;
   z-index: 1;
-}
-
-#l1 {
-  bottom: 0;
-  left: 0;
-}
-
-#l2 {
-  top: 190px;
-  left: -250px;
-}
-
-#l3 {
-  top: 200px;
-  left: 40%;
-}
-
-#l4 {
-  top: 200px;
-  right: 40%;
-}
-
-#l5 {
-  top: 100px;
-  right: -150px;
-}
-
-#l6 {
-  bottom: -20px;
-  left: 10%;
-}
-
-#l7 {
-  bottom: 100px;
-  left: 20%;
-}
-
-#l8 {
-  bottom: 160px;
-  right: 45%;
-}
-
-#l9 {
-  bottom: 100px;
-  right: -10px;
 }
 
 .layer-bg {

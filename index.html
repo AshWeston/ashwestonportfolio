@@ -1,110 +1,168 @@
 <!DOCTYPE html>
 
-
 <html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ash Weston | Home</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Ash Weston | Home </title>
+    <!-- mobile responsive meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  <!-- ** Plugins Needed for the Project ** -->
-  <!-- bulma -->
-  <link rel="stylesheet" href="plugins/bulma/bulma.min.css">
-  <!-- slick slider -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <!-- themefy-icon -->
-  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- bulma -->
+    <link rel="stylesheet" href="plugins/bulma/bulma.min.css" />
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css" />
+    <!-- themefy-icon -->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css" />
 
-  <!-- Main Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
-  
-  <!--Favicon-->
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
 
-</head>
+    <!--Favicon-->
+    <link
+      rel="shortcut icon"
+      href="images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+  </head>
 
-<body>
-  
+  <body>
+    <header>
+      <nav
+        class="navbar is-dark is-fixed-top"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <div class="logo">△ aw</div>
+          </a>
 
-<header>
-  <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="index.html">
-        <div class="logo">△ aw</div>
-      </a>
-  
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navigation">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-  
-    <div id="navigation" class="navbar-menu">
-      <div class="navbar-end">
-        <a href="index.html" class="navbar-item">home</a>
-        <a href="about.html" class="navbar-item">about</a>
-        <a href="portfolio.html" class="navbar-item">portfolio</a>
-        <a href="contact.html" class="navbar-item">contact</a>
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navigation"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navigation" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="index.html" class="navbar-item">home</a>
+            <a href="about.html" class="navbar-item">about</a>
+            <a href="portfolio.html" class="navbar-item">portfolio</a>
+            <a href="contact.html" class="navbar-item">contact</a>
+            <a
+              class="navbar-item"
+              href="resume.pdf"
+              download="resume.pdf"
+              id="resume"
+              target="_blank"
+            >
+              Resume</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero area -->
+    <section class="hero-area has-background-primary" id="parallax">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-11-desktop is-offset-1-desktop">
+            <h1 class="has-text-white font-tertiary">
+              hi, <br /><span> my name is</span> <br />
+              ash. <br />
+            </h1>
+            <h1>
+              my passion is to <span>build things</span> <br />
+              for the web.
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- social icon -->
+      <div class="list list-hero-social">
         <a
-          class="navbar-item"
-          href="resume.pdf"
-          download="resume.pdf"
-          id="resume"
-          target="_blank"
-        >
-          Resume</a
-        >
+          class="list-item has-text-white"
+          href="https://www.linkedin.com/in/ashliegh-weston-610669147/"
+          ><i class="ti-linkedin"></i
+        ></a>
+        <a class="list-item has-text-white" href="https://github.com/AshWeston"
+          ><i class="ti-github"></i
+        ></a>
+        <a class="list-item has-text-white" href="#"
+          ><i class="ti-instagram"></i
+        ></a>
+        <a class="list-item has-text-white" href="#"
+          ><i class="ti-facebook"></i
+        ></a>
       </div>
-    </div>
-  </nav>
-</header>
+      <!-- /social icon -->
+    </section>
+    <!-- /hero area -->
 
-<!-- hero area -->
-<section class="hero-area has-background-primary" id="parallax">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-11-desktop is-offset-1-desktop">
-        <h1 class="has-text-white font-tertiary">hi, <br><span> my name is</span> <br> ash. <br></h1>
-        <h1>my passion is to <span>build things</span> <br> for the web.</h1> 
+    <!-- footer -->
+    <footer class="has-background-dark footer-section">
+      <div class="section">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-4-tablet">
+              <h5 class="has-text-light">email</h5>
+              <p class="has-text-white paragraph-lg font-secondary">
+                ash-w@live.com.au
+              </p>
+            </div>
+            <div class="column is-4-tablet">
+              <h5 class="has-text-light">phone</h5>
+              <p class="has-text-white paragraph-lg font-secondary">
+                0424 120 776
+              </p>
+            </div>
+            <div class="column is-4-tablet">
+              <h5 class="has-text-light">location</h5>
+              <p class="has-text-white paragraph-lg font-secondary">
+                Brisbane, QLD Australia
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  
-  <!-- social icon -->
-  <div class="list list-hero-social">
-    <a class="list-item has-text-white" href="#"><i class="ti-facebook"></i></a>
-    <a class="list-item has-text-white" href="#"><i class="ti-instagram"></i></a>
-    <a class="list-item has-text-white" href="#"><i class="ti-dribbble"></i></a>
-    <a class="list-item has-text-white" href="#"><i class="ti-twitter"></i></a>
-  </div>
-  <!-- /social icon -->
-</section>
-<!-- /hero area -->
+      <div
+        class="section is-small has-text-centered has-border-top is-border-dark"
+      >
+        <p class="has-text-light">
+          Copyright ©
+          <script>
+            var CurrentYear = new Date().getFullYear();
+            document.write(CurrentYear);
+          </script>
+          Ash Weston
+        </p>
+      </div>
+    </footer>
+    <!-- /footer -->
 
-  <div class="section is-small has-text-centered has-border-top is-border-dark">
-    <p class="has-text-light">Copyright ©
-      <script>
-        var CurrentYear = new Date().getFullYear()
-        document.write(CurrentYear)
-      </script> Ash Weston</p>
-  </div>
-</footer>
-<!-- /footer -->
+    <!-- jQuery -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- slick slider -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- filter -->
+    <script src="plugins/shuffle/shuffle.min.js"></script>
 
-<!-- jQuery -->
-<script src="plugins/jQuery/jquery.min.js"></script>
-<!-- slick slider -->
-<script src="plugins/slick/slick.min.js"></script>
-<!-- filter -->
-<script src="plugins/shuffle/shuffle.min.js"></script>
-
-<!-- Main Script -->
-<script src="js/script.js"></script>
-
-</body>
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
