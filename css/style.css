@@ -125,19 +125,19 @@ h6,
 }
 .button.is-primary.focus,
 .button.is-primary.is-active {
-  background-color: #var(--aqua) !important;
+  background-color: var(--aqua) !important;
   box-shadow: none !important;
 }
 .button.is-link {
   background-color: transparent;
-  color: #var(--aqua);
+  color: var(--aqua);
   font-weight: bold;
   padding-left: 0;
   padding-right: 0;
 }
 .button.is-link:active,
 .button.is-link:hover {
-  color: #var(--aqua);
+  color: var(--aqua);
   background: transparent;
 }
 
@@ -164,6 +164,7 @@ ul {
 
 img {
   vertical-align: middle;
+
   border: 0;
 }
 
