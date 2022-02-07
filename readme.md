@@ -14,6 +14,7 @@ The page is designed responsively.
 
 ![Ash Weston responsive design ](responsive.gif)
 
+
 Technologies used for this project:
 
 bulma - https://bulma.io
