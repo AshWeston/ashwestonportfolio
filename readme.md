@@ -10,6 +10,10 @@ Hover over each project to be taken to the deployed application. (I have purpose
 
 I’ve included a contact me page, which will be updated at a later stage for functionality purposes.
 
+The page is designed responsively.
+
+![Ash Weston responsive design ](responsive.gif)
+
 Technologies used for this project:
 
 bulma - https://bulma.io
