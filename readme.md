@@ -2,6 +2,8 @@ Hi! Welcome to my Portfolio
 
 ![Ash Weston Portfolio ](ashwestonhome.gif)
 
+https://ashweston.github.io/ashwestonportfolio/
+
 Here, you can read a little bit about me, and follow links to my Github, Linked In and Resume.
 
 This is a work in progress – I am currently completing my full stack course through the University of Adelaide and will continue to update my “work in progress” projects.
@@ -13,7 +15,6 @@ I’ve included a contact me page, which will be updated at a later stage for fu
 The page is designed responsively.
 
 ![Ash Weston responsive design ](responsive.gif)
-
 
 Technologies used for this project:
 
